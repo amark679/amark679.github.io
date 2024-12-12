@@ -1,3 +1,4 @@
+/* Reset de márgenes y padding */
 * {
     margin: 0;
     padding: 0;
@@ -8,12 +9,12 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-image: url(/img/Egurra.jfif);
+    background-image: url(../img/Egurra.jfif);
 }
 
 /* Estilos del header */
 header {
-    background-image: url(/img/Egurra.jfif);
+    background-image: url(..img/Egurra.jfif);
     display: flex;
     
     align-items: center;
@@ -82,7 +83,7 @@ header input[type="submit"]:hover {
 nav {
     display: flex;
     margin-top: 0px;
-    background-image: url(/img/egurra2.jfif);
+    background-image: url(../img/egurra2.jfif);
     color: black; /* Color del texto */
     border: none; /* Sin borde */
     padding: 0.78616352201257861635220125786164% 0.39308176100628930817610062893082%; /* Espaciado interno */
@@ -114,118 +115,23 @@ nav a {
 nav a:hover {
     background-color: #575757;
     border-radius: 10px;
-
 }
-
-/*div p{
+main{
     font-family: 'Times New Roman', Times, serif;
     font-weight:bold;
-    color: white;
-    text-align: center;
-    
-}*/
-main section div a img{
-    box-shadow: inset;
-    transition: 0,5s
-}
-footer{
-    background-color: #575757;
-    clear: both;
-    margin: 10px 10px;
-    margin-top: 250px;
-    width: auto;
-    border: 1px solid black;
-}
-footer img{
-    height: 50px;
-    margin-top: 50px;
     margin-left: 10px;
+    margin-right: 10px;
+    background-color: white;
+    border-radius: 10px;
 }
-.container{
-    background-image: url(/img/egurra2.jfif);
-    width: 300px;
-    margin-left: 10px;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight:bold;
-    border-radius: 20px;
-    float: left;
-    margin-top: 10px;
-    height: 150px;
-    
+main h1 {
+    border-bottom: 1px dashed black;
 }
-main div input[type="range"] {
-    -webkit-appearance: none;
-    width: 300px;
-    height: 10px;
-    background: #fffefe;
-    border-radius: 5px;
-    outline: none;
-}
-
-div input[type="range"]::-webkit-slider-thumb {
-    -webkit-appearance: none;
-    appearance: none;
-    width: 20px;
-    height: 20px;
-    background: #4CAF50;
-    border-radius: 50%;
-    cursor: pointer;
-}
-
-main div input[type="range"]::-moz-range-thumb {
-    width: 20px;
-    height: 20px;
-    background: #4CAF50;
-    border-radius: 50%;
-    cursor: pointer;
-}
-
-.price {
-    font-size: 20px;
-    margin: 20px 0;
-}
-aside div{
-    background-image: url(/img/egurra2.jfif);
-    width: 300px;
-    margin-left: 10px;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight:bold;
-    border-radius: 20px;
-    margin-top: 10px;
-    
-}
-aside div img{
-    cursor: pointer;
-    border: 1px solid black;
-    margin-left: 45px;
-    margin-top: 10px;
-    transition: 0.5s;
-    width: 200px;
-
-}
-aside div img :hover{
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
-    transition: 0.5s;
-}
-aside div p{
-    
-    color: #000;
-    margin-left: 10px;
-    
-}
-aside{
+main section{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(4,1fr);
     
 }
-aside div a{
-    
-    background-color: mediumaquamarine;
-    text-transform: uppercase;
-    color: #000;
-    border-radius: 20px;
-    border: 1px solid black;
-    padding: 3px;
-    margin-left: 20px;
-
+main section>*{
+    margin-top: 20px;
 }

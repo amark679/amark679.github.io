@@ -3,21 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
-html, body{
-    height: 100%;
-}
+
 /* Estilo general del body */
 body {
-    display: flex;
-    flex-direction: column;
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-image: url(/img/Egurra.jfif);
+    background-image: url(../img/Egurra.jfif);
 }
 
 /* Estilos del header */
 header {
-    background-image: url(/img/Egurra.jfif);
+    background-image: url(../img/Egurra.jfif);
     display: flex;
     
     align-items: center;
@@ -86,7 +82,7 @@ header input[type="submit"]:hover {
 nav {
     display: flex;
     margin-top: 0px;
-    background-image: url(/img/egurra2.jfif);
+    background-image: url(../img/egurra2.jfif);
     color: black; /* Color del texto */
     border: none; /* Sin borde */
     padding: 0.78616352201257861635220125786164% 0.39308176100628930817610062893082%; /* Espaciado interno */
@@ -94,7 +90,7 @@ nav {
     text-decoration: none; /* Sin subrayado */
     display: inline-block; /* Mostrar como bloque en línea */
     font-size: 16px; /* Tamaño de fuente */
-   /* margin: 1.39308176100628930817610062893082% 0%; /* Margen */
+    /*margin: 1.39308176100628930817610062893082% 0%; /* Margen */
     margin-bottom: 5px;
     cursor: pointer; /* Cambia el cursor al pasar por encima */
     border-radius: 8px; /* Esquinas redondeadas */
@@ -118,13 +114,78 @@ nav a {
 nav a:hover {
     background-color: #575757;
     border-radius: 10px;
+
 }
-main{
-    flex: 1;
-    margin: 0px;
+
+/*div p{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:bold;
+    color: white;
+    text-align: center;
+    
+}*/
+main section div a img{
+    box-shadow: inset;
+    transition: 0,5s
+}
+footer{
+    background-color: #575757;
+    clear: both;
+    margin: 10px 10px;
+    margin-top: 250px;
+    width: auto;
+    border: 1px solid black;
+}
+footer img{
+    height: 50px;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+.container{
+    background-image: url(../img/egurra2.jfif);
+    width: 300px;
+    margin-left: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:bold;
+    border-radius: 20px;
+    float: left;
+    margin-top: 10px;
+    height: 150px;
+    
+}
+main div input[type="range"] {
+    -webkit-appearance: none;
+    width: 300px;
+    height: 10px;
+    background: #fffefe;
+    border-radius: 5px;
+    outline: none;
+}
+
+div input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background: #4CAF50;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+main div input[type="range"]::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    background: #4CAF50;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.price {
+    font-size: 20px;
+    margin: 20px 0;
 }
 aside div{
-    background-image: url(/img/egurra2.jfif);
+    background-image: url(../img/egurra2.jfif);
     width: 300px;
     margin-left: 10px;
     font-family: 'Times New Roman', Times, serif;
@@ -134,54 +195,27 @@ aside div{
     
 }
 aside div img{
-    
+    cursor: pointer;
     border: 1px solid black;
     margin-left: 45px;
     margin-top: 10px;
-    
+    transition: 0.5s;
     width: 200px;
-    
+
 }
-.adibidea:hover{
+aside div img :hover{
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
     transition: 0.5s;
-   
-    cursor: pointer;
-}
-.adibidea2:hover{
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
-    transition: 0.5s;
-    cursor: pointer;
-}
-.adibidea3:hover{
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
-    transition: 0.5s;
-    cursor: pointer;
-}
-.adibidea4:hover{
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
-    transition: 0.5s;
-    cursor: pointer;
-}
-.adibidea5:hover{
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
-    transition: 0.5s;
-    cursor: pointer;
-}
-.adibidea6:hover{
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
-    transition: 0.5s;
-    cursor: pointer;
 }
 aside div p{
+    
+    color: #000;
     margin-left: 10px;
-    /*float: inherit;*/
+    
 }
 aside{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    justify-content: space-between;
-    margin-left: 65px;
     
 }
 aside div a{
@@ -194,31 +228,4 @@ aside div a{
     padding: 3px;
     margin-left: 20px;
 
-}
-.tambor1 a {
-    margin-top: 100px;
-    
-}
-footer{
-    background-color: #575757;
-    clear: both;
-    margin: 10px 10px;
-    text-align: center;
-    width: auto;
-    border: 1px solid black;
-}
-footer img{
-    height: 50px;
-    margin-top: 50px;
-    margin-left: 10px;
-}
-@media (max-width:768px) {
-    aside{
-        
-        grid-template-columns: repeat(2,1fr);
-    }
-    header form {
-        display: none;
-    }
-    
 }

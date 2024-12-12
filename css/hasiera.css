@@ -13,12 +13,12 @@ body {
     flex-direction: column;
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-image: url(/img/Egurra.jfif);
+    background-image: url(../img/Egurra.jfif);
 }
 
 /* Estilos del header */
 header {
-    background-image: url(/img/Egurra.jfif);
+    background-image: url(../img/Egurra.jfif);
     display: flex;
     
     align-items: center;
@@ -89,7 +89,7 @@ header input[type="submit"]:hover {
 nav {
     display: flex;
     margin-top: 0px;
-    background-image: url(/img/egurra2.jfif);
+    background-image: url(../img/egurra2.jfif);
     color: black; /* Color del texto */
     border: none; /* Sin borde */
     padding: 0.78616352201257861635220125786164% 0.39308176100628930817610062893082%; /* Espaciado interno */

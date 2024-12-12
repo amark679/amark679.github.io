@@ -9,12 +9,12 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-image: url(/img/Egurra.jfif);
+    background-image: url(../img/Egurra.jfif);
 }
 
 /* Estilos del header */
 header {
-    background-image: url(/img/Egurra.jfif);
+    background-image: url(../img/Egurra.jfif);
     display: flex;
     
     align-items: center;
@@ -83,7 +83,7 @@ header input[type="submit"]:hover {
 nav {
     display: flex;
     margin-top: 0px;
-    background-image: url(/img/egurra2.jfif);
+    background-image: url(../img/egurra2.jfif);
     color: black; /* Color del texto */
     border: none; /* Sin borde */
     padding: 0.78616352201257861635220125786164% 0.39308176100628930817610062893082%; /* Espaciado interno */
@@ -117,7 +117,7 @@ nav a:hover {
     border-radius: 10px;
 }
 .container{
-    background-image: url(/img/egurra2.jfif);
+    background-image: url(../img/egurra2.jfif);
     width: 300px;
     margin-left: 10px;
     font-family: 'Times New Roman', Times, serif;
@@ -158,7 +158,7 @@ main div input[type="range"]::-moz-range-thumb {
     margin: 20px 0;
 }
 aside div{
-    background-image: url(/img/egurra2.jfif);
+    background-image: url(../img/egurra2.jfif);
     width: 300px;
     margin-left: 10px;
     font-family: 'Times New Roman', Times, serif;
