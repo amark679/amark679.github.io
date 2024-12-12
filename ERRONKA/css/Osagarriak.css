@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo general del body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-image: url(/img/Egurra.jfif);
+}
+
+/* Estilos del header */
+header {
+    background-image: url(/img/Egurra.jfif);
+    display: flex;
+    
+    align-items: center;
+    padding: 0.78616352201257861635220125786164% 1.5723270440251572327044025157233%;
+    border: 0.07861635220125786163522012578616% solid black;
+    width: 100%;
+    clear: right;
+    float: left;
+    
+}
+.karroa{
+    
+    height: 85px;
+    padding: 5.8616352201257861635220125786164%;
+    margin-left: 20px;
+    width: 100%;
+    
+}
+.kontaktua{
+    padding: 5.8616352201257861635220125786164%;
+    width: 150%;
+}
+
+/* Estilo de las imágenes */
+
+#argazkia2{
+    height: 150px;
+    border-radius: 90px; /* Esquinas redondeadas */
+    border: 1px solid black;
+}
+
+/* Estilo del párrafo en el header */
+
+
+/* Estilo del formulario */
+header form {
+    margin-left: 15.723270440251572327044025157233%;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    
+}
+
+header input[type="text"] {
+    padding: 1.5893081761006289308176100628931%;
+    margin-right: 0.78616352201257861635220125786164%;
+    border: 1px solid black;
+    border-radius: 4px;
+    width: 300px;
+}
+
+header input[type="submit"] {
+    padding: 1.62893081761006289308176100628931% 2.62893081761006289308176100628931%;
+    border: 1px solid #ccc;
+    background-color: burlywood;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+header input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para el navbar */
+nav {
+    display: flex;
+    margin-top: 0px;
+    background-image: url(/img/egurra2.jfif);
+    color: black; /* Color del texto */
+    border: none; /* Sin borde */
+    padding: 0.78616352201257861635220125786164% 0.39308176100628930817610062893082%; /* Espaciado interno */
+    text-align: center; /* Centrar el texto */
+    text-decoration: none; /* Sin subrayado */
+    display: inline-block; /* Mostrar como bloque en línea */
+    font-size: 16px; /* Tamaño de fuente */
+    /*margin: 1.39308176100628930817610062893082% 0%; /* Margen */
+    margin-bottom: 5px;
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    border-radius: 8px; /* Esquinas redondeadas */
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:bold;
+    
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    padding: 0.68616352201257861635220125786164% 1.0723270440251572327044025157233%;
+    text-transform: uppercase;
+    border : 1px solid black;
+    margin: 0px 0.78616352201257861635220125786164%;
+    background-color: burlywood;
+    justify-content: space-between;
+}
+
+nav a:hover {
+    background-color: #575757;
+    border-radius: 10px;
+
+}
+
+/*div p{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:bold;
+    color: white;
+    text-align: center;
+    
+}*/
+main section div a img{
+    box-shadow: inset;
+    transition: 0,5s
+}
+footer{
+    background-color: #575757;
+    clear: both;
+    margin: 10px 10px;
+    margin-top: 250px;
+    width: auto;
+    border: 1px solid black;
+}
+footer img{
+    height: 50px;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+.container{
+    background-image: url(/img/egurra2.jfif);
+    width: 300px;
+    margin-left: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:bold;
+    border-radius: 20px;
+    float: left;
+    margin-top: 10px;
+    height: 150px;
+    
+}
+main div input[type="range"] {
+    -webkit-appearance: none;
+    width: 300px;
+    height: 10px;
+    background: #fffefe;
+    border-radius: 5px;
+    outline: none;
+}
+
+div input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background: #4CAF50;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+main div input[type="range"]::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    background: #4CAF50;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.price {
+    font-size: 20px;
+    margin: 20px 0;
+}
+aside div{
+    background-image: url(/img/egurra2.jfif);
+    width: 300px;
+    margin-left: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:bold;
+    border-radius: 20px;
+    margin-top: 10px;
+    
+}
+aside div img{
+    cursor: pointer;
+    border: 1px solid black;
+    margin-left: 45px;
+    margin-top: 10px;
+    transition: 0.5s;
+    width: 200px;
+
+}
+aside div img :hover{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    transition: 0.5s;
+}
+aside div p{
+    
+    color: #000;
+    margin-left: 10px;
+    
+}
+aside{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+}
+aside div a{
+    
+    background-color: mediumaquamarine;
+    text-transform: uppercase;
+    color: #000;
+    border-radius: 20px;
+    border: 1px solid black;
+    padding: 3px;
+    margin-left: 20px;
+
+}
