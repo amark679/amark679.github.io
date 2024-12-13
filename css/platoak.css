@@ -5,8 +5,12 @@
     box-sizing: border-box;
 }
 
-/* Estilo general del body */
+html, body{
+    height: 100%;
+}
 body {
+    display: flex;
+    flex-direction: column;
     font-family: Arial, sans-serif;
     line-height: 1.6;
     background-image: url(../img/Egurra.jfif);
@@ -31,10 +35,13 @@ header {
     padding: 5.8616352201257861635220125786164%;
     margin-left: 20px;
     width: 100%;
- }
+    
+    
+
+}
 .kontaktua{
     padding: 5.8616352201257861635220125786164%;
-    width: 150%;
+    width: 140%;
 }
 /* Estilo de las imágenes */
 
@@ -125,6 +132,10 @@ nav a:hover {
     margin-top: 10px;
     height: 140px;
 }
+main{
+    flex: 1;
+    margin: 0px;
+}
 main div input[type="range"] {
     -webkit-appearance: none;
     width: 300px;
@@ -170,7 +181,7 @@ aside div{
     font-weight:bold;
     border-radius: 20px;
     margin-top: 10px;
-    margin-left: 55px;
+    margin-left: 15px;
 }
 aside div img{
     cursor: pointer;
@@ -229,16 +240,17 @@ footer img{
         display: none;
     }
     .kontaktua{
-        width: 110px;
+        width: 80px;
         
         height: 90px;
-        margin-left: 100px;
+        margin-left: 120px;
     }
     .karroa{
-        width: 100%;
+        width: 80px;
         height: 80px;
-        float: right;
+        margin-left: 0px;
     }
+    
     aside div {
         width: 220px;
         

@@ -1,12 +1,15 @@
-/* Reset de márgenes y padding */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
+html, body{
+    height: 100%;
+}
 /* Estilo general del body */
 body {
+    display: flex;
+    flex-direction: column;
     font-family: Arial, sans-serif;
     line-height: 1.6;
     background-image: url(../img/Egurra.jfif);
@@ -14,7 +17,7 @@ body {
 
 /* Estilos del header */
 header {
-    background-image: url(..img/Egurra.jfif);
+    background-image: url(../img/Egurra.jfif);
     display: flex;
     
     align-items: center;
@@ -91,7 +94,7 @@ nav {
     text-decoration: none; /* Sin subrayado */
     display: inline-block; /* Mostrar como bloque en línea */
     font-size: 16px; /* Tamaño de fuente */
-    /*margin: 1.39308176100628930817610062893082% 0%; /* Margen */
+   /* margin: 1.39308176100628930817610062893082% 0%; /* Margen */
     margin-bottom: 5px;
     cursor: pointer; /* Cambia el cursor al pasar por encima */
     border-radius: 8px; /* Esquinas redondeadas */
@@ -123,15 +126,63 @@ main{
     margin-right: 10px;
     background-color: white;
     border-radius: 10px;
+    border: 5px solid black;
 }
 main h1 {
     border-bottom: 1px dashed black;
 }
 main section{
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(5,1fr);
     
 }
 main section>*{
     margin-top: 20px;
+}
+
+main div{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    row-gap: 15px;
+    column-gap: 15px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.guztira {
+    grid-row: 1/2;
+    grid-column: 3/ span 4 ;
+}
+.prezioa {
+    grid-row: 1/2;
+    grid-column: 4/ span 5 ;
+}
+input[type="submit"] {
+    padding: 1.62893081761006289308176100628931% 2.62893081761006289308176100628931%;
+    border: 1px solid #ccc;
+    background-color: blue;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: grey;
+}
+@media (max-width: 768px) {
+    
+    header form {
+        display: none;
+    }
+    .kontaktua{
+        width: 80px;
+        
+        height: 90px;
+        margin-left: 120px;
+    }
+    .karroa{
+        width: 80px;
+        height: 80px;
+        margin-left: 0px;
+    }
+    
+    
 }
