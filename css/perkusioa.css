@@ -160,14 +160,20 @@ footer{
     background-color: #575757;
     clear: both;
     margin: 0.78616352201257861635220125786164% 0.78616352201257861635220125786164%;
-    margin-top: 250px;
+    margin-top: 150px;
     width: auto;
     border: 1px solid black;
+    position: relative;
+    text-align: center;
 }
-footer img{
-    height: 50px;
+footer div{
+    width: 300px;
+}
+footer img {
+    height: 40px;
     margin-top: 50px;
     margin: none;
+    margin-left: 0.78616352201257861635220125786164%;
 }
 @media (max-width: 768px){
     main section{

@@ -1,11 +1,17 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+   box-sizing: border-box;
 }
 html, body{
     height: 100%;
 }
+<<<<<<< HEAD
+=======
+html, body{
+    height: 100%;
+}
+>>>>>>> 4dea76e59af680dc3d07cbd32bc8021c00c63bed
 /* Estilo general del body */
 body {
     display: flex;
@@ -119,14 +125,27 @@ nav a:hover {
     background-color: #575757;
     border-radius: 10px;
 }
-main{
-    font-family: 'Times New Roman', Times, serif;
-    font-weight:bold;
+main {
+    background-color: white;
     margin-left: 10px;
     margin-right: 10px;
+}
+
+main >*{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:bold;
+    
     background-color: white;
+<<<<<<< HEAD
+    margin-left: 10px;
+    margin-right: 10px;
+    
+    font-size: 16px;
+    
+=======
     border-radius: 10px;
     border: 5px solid black;
+>>>>>>> 4dea76e59af680dc3d07cbd32bc8021c00c63bed
 }
 main h1 {
     border-bottom: 1px dashed black;
@@ -147,6 +166,10 @@ main div{
     column-gap: 15px;
     margin-left: 10px;
     margin-top: 20px;
+<<<<<<< HEAD
+    background-color: white;
+=======
+>>>>>>> 4dea76e59af680dc3d07cbd32bc8021c00c63bed
 }
 .guztira {
     grid-row: 1/2;
@@ -155,6 +178,10 @@ main div{
 .prezioa {
     grid-row: 1/2;
     grid-column: 4/ span 5 ;
+<<<<<<< HEAD
+    
+=======
+>>>>>>> 4dea76e59af680dc3d07cbd32bc8021c00c63bed
 }
 input[type="submit"] {
     padding: 1.62893081761006289308176100628931% 2.62893081761006289308176100628931%;
@@ -167,6 +194,31 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background-color: grey;
 }
+<<<<<<< HEAD
+.zuria{
+    color: white;
+}
+footer{
+    background-color: #575757;
+    clear: both;
+    margin: 0.78616352201257861635220125786164% 0.78616352201257861635220125786164%;
+    margin-top: 50px;
+    width: auto;
+    border: 1px solid black;
+    position: relative;
+    text-align: center;
+}
+footer img{
+    height: 50px;
+    margin-top: 50px;
+    margin: none;
+    margin-left: 0.78616352201257861635220125786164%;
+}
+.eskaria{
+    width: 80px;
+}
+=======
+>>>>>>> 4dea76e59af680dc3d07cbd32bc8021c00c63bed
 @media (max-width: 768px) {
     
     header form {

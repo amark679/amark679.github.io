@@ -217,8 +217,13 @@ section div a{
 }
 footer{
     background-color: #575757;
+<<<<<<< HEAD
+    clear: both;
+    margin: 0.78616352201257861635220125786164% 0.78616352201257861635220125786164%;
+=======
     
     margin: 10px 10px;
+>>>>>>> 4dea76e59af680dc3d07cbd32bc8021c00c63bed
     margin-top: 50px;
     width: auto;
     border: 1px solid black;
@@ -228,7 +233,45 @@ footer{
 footer img{
     height: 50px;
     margin-top: 50px;
-    margin-left: 10px;
+    margin: none;
+    margin-left: 0.78616352201257861635220125786164%;
+}
+
+@media (max-width:768px) {
+    aside{
+        
+        grid-template-columns: repeat(2,1fr);
+        margin: 5px 5px;
+    }
+    header form {
+        display: none;
+    }
+    .kontaktua{
+        width: 80px;
+        
+        height: 90px;
+        margin-left: 120px;
+    }
+    .karroa{
+        width: 80px;
+        height: 75px;
+        margin-left: 0px;
+    }
+    
+    section div {
+        width: 220px;
+        
+    }
+    section div img{
+        width: 180px;
+        text-align: center;
+        margin-left: 20px;
+    }
+    main section {
+        grid-template-columns: repeat(2,1fr);
+        margin: 5px 5px;
+    }
+    
 }
 @media (max-width:768px) {
     aside{

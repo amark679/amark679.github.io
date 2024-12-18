@@ -197,6 +197,16 @@ footer img{
     margin: none;
     margin-left: 0.78616352201257861635220125786164%;
 }
+.aurkeztu{
+    background-color: azure;
+    color: black;
+    text-align: center;
+    margin: 0.5208333333333333% 0.5208333333333333% 0.5208333333333333%;
+    border: 4px solid black;
+}
+.aurkeztu p{
+    border-bottom: 1px solid black;
+}
 @media (max-width: 768px){
     main section{
     
@@ -225,5 +235,9 @@ footer img{
     }
     .carrusel{
         width: 100%;
+    }
+    .aurkeztu{
+        height: 400px;
+        font-size: medium ;
     }
 }    
