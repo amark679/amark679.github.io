@@ -125,19 +125,25 @@ nav a:hover {
     border-radius: 10px;
 }
 main {
-    background-color: white;
+    
     width: 600px;
     margin-left: 15px;
     flex: 1;
     margin: 0px;
-    
-
-}
+    }
 main h2{
     border-bottom: 2px solid black;
+    background-color: white;
+    width: 450px;
+    margin-left: 15px;
+    border-radius: 4px;
 }
+
 main h3{
     border-bottom: 2px dashed black;
+    background-color: white;
+    width: 450px;
+    margin-left: 15px;
 }
 main form>*{
     margin-top: 20px;
@@ -146,6 +152,9 @@ main form>*{
 main form {
     border-bottom: 2px solid black;
     width: 450px;
+    background-color: white;
+    margin-left: 15px;
+    border-radius: 4px;
 }
 main input[type="submit"] {
     padding: 0.62893081761006289308176100628931% 1.62893081761006289308176100628931%;
@@ -197,6 +206,7 @@ footer img{
     }
     main {
         width: 400px;
+        margin-left: 10px;
     }
     
 }

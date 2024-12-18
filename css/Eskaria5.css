@@ -125,17 +125,23 @@ nav a:hover {
     border-radius: 10px;
 }
 main {
-    background-color: white;
+    
     width: 600px;
     margin-left: 15px;
     flex: 1;
-    
-
+}
+main div{
+    background-color: white;
+    padding: 5px 15px;
+    height: 100px;
 }
 main h2{
     border-bottom: 2px solid black;
+    background-color: white;
 }
-
+main p{
+    background-color: white;
+}
 main>*{
     margin-top: 20px;
     margin-left: 15px;

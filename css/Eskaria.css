@@ -125,8 +125,8 @@ main section{
     background-color: white;
     display: grid;
     grid-template-columns: repeat(1,1fr);
-    width: 35%;
-    margin-left: 20px;
+    width: 445px;
+    margin-left: 30%;
     border: 2px solid black;
 }
 
@@ -137,6 +137,7 @@ main section input{
     margin-right: 20px;
     width: 130px;
 }
+
 main section>*{
     margin-left: 15px;
     margin-top: 10px;
@@ -172,9 +173,10 @@ main section>*{
 }
 .atzea {
     background-color: white;
-    width: 35%;
-    margin-left: 20px;
+    width: 445px;
+    margin-left: 30%;
     border: 2px solid black;
+    
 }
 .atzea >*{
     margin-left: 15px;
@@ -262,6 +264,12 @@ footer img{
     .email{
         
         width: 60px;
+    }
+    main section {
+        width: 300px;
+    }
+    .atzea {
+        width: 300px;
     }
     
    

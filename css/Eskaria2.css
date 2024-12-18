@@ -124,65 +124,66 @@ nav a:hover {
     background-color: #575757;
     border-radius: 10px;
 }
-main {
+main section{
     background-color: white;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-main>*{
-    font-family: 'Times New Roman', Times, serif;
-    font-weight:bold;
-    margin-left: 10px;
-    margin-right: 10px;
-    background-color: white;
-    border-radius: 10px;
-    flex: 1;
-}
-main h1 {
-    border-bottom: 1px dashed black;
-}
-.sekziñoia{
-    display: grid;
-    grid-template-columns: repeat(5,1fr);
-    
-}
-.sekziñoia>*{
-    margin-top: 20px;
-}
-.eskaria{
-   width: 100px;
-}
-
-main div{
+    margin-left: 25%;
+    margin-right: 25%;
     display: grid;
     grid-template-columns: repeat(5,1fr);
     row-gap: 15px;
     column-gap: 15px;
-    margin-left: 10px;
-    margin-top: 20px;
-}
-.guztira {
-    grid-row: 1/2;
-    grid-column: 3/ span 4 ;
-}
-.prezioa {
-    grid-row: 1/2;
-    grid-column: 4/ span 5 ;
+    border-radius: 5px;
+    border: 2px solid black;
     
 }
-main input[type="submit"] {
+main section>*{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+main {
+    flex: 1;
+    margin: 0px;
+}
+.kopurua {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+.Ezabatu{ 
     padding: 1.62893081761006289308176100628931% 2.62893081761006289308176100628931%;
+        border: 1px solid #ccc;
+        background-color: blue;
+        color: white;
+        border-radius: 4px;
+        cursor: pointer;
+        width: 60px;
+        height: 40px;
+}
+.Ezabatu:hover {
+    background-color: #0056b3;
+}
+.nagusi{
+    font-style: italic;
+    font-variant: small-caps;
+}
+.nagusi1{
+    color: white;
+}
+.Eskaria{
+    /*padding: 1.62893081761006289308176100628931% 2.62893081761006289308176100628931%;*/
     border: 1px solid #ccc;
     background-color: blue;
     color: white;
     border-radius: 4px;
     cursor: pointer;
+   /*margin-left: 320px;*/
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    margin-top: 10px;
 }
-input[type="submit"]:hover {
-    background-color: grey;
-}
-.zuria{
-    color: white;
+.Eskaria:hover {
+    background-color: #0056b3;
 }
 footer{
     background-color: #575757;
@@ -216,8 +217,8 @@ footer img{
     background-color: white;
     display: grid;
     grid-template-columns: repeat(1,1fr);
-    width: 35%;
-    margin-left: 10px;
+    width: 445px;
+    margin-left: 25%;
     border: 2px solid black;
     border-radius: 10px;
 }
@@ -264,8 +265,8 @@ footer img{
 }
 .atzea {
     background-color: white;
-    width: 35%;
-    margin-left: 10px;
+    width: 445px;
+    margin-left: 25%;
     border: 2px solid black;
     margin-top: 15px;
     border-radius: 10px ;
@@ -310,10 +311,10 @@ a input>*{
 }
 .aldatu1{
     
-    width: 35%;
-    margin-left: 10px;
-    
-    padding: 5px 5px;
+    width: 500px;
+    margin-left: 25%;
+    border-top: 4px solid white;
+    /*padding: 5px 5px;*/
     border-bottom: 5px solid white;
 }
 .ordainketa{
@@ -333,6 +334,9 @@ a input>*{
     margin-left: 15px;
     margin-top: 10px;
     font-size: 18px;
+}
+.eskaria{
+    margin-left: 25%;
 }
 
 @media (max-width: 768px) {
@@ -355,13 +359,23 @@ a input>*{
         width: 400px;
     }
     .sekziñoia2{
-        width: 400px;
+        width: 300px;
+        margin-left: 20px;
     }
     .atzea{
-        width: 400px;
+        width: 300px;
+        margin-left: 20px;
     }
     
     .eskaria{
         width: 100px;
+        margin-left: 20px;
+    }
+    main section{
+        width: 440px;
+        margin-left: 20px;
+    }
+    .aldatu1{
+        margin-left: 20px;
     }
 }

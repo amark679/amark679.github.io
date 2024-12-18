@@ -125,15 +125,15 @@ nav a:hover {
     border-radius: 10px;
 }
 main {
-    background-color: white;
+    /*background-color: white;*/
     width: 600px;
     margin-left: 15px;
+    height: 400px;
     flex: 1;
-    
-
 }
 main h2{
     border-bottom: 2px solid black;
+    
 }
 main h3{
     border-bottom: 2px dashed black;
@@ -145,6 +145,17 @@ main form>*{
 main form {
     border-bottom: 2px solid black;
     width: 250px;
+    flex: 1;
+    background-color: white;
+}
+.goikoa{
+    background-color: white;
+    width: 250px;
+    border-radius: 4px;
+    
+}
+.goiko, h2, h3{
+    margin-left: 10px;
 }
 main input[type="submit"] {
     padding: 0.62893081761006289308176100628931% 1.62893081761006289308176100628931%;
@@ -175,6 +186,8 @@ footer img{
     margin: none;
     margin-left: 0.78616352201257861635220125786164%;
 }
+
+
 @media (max-width: 768px){
     
     header form{
