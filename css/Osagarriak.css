@@ -141,6 +141,7 @@ footer{
     border: 1px solid black;
     position: relative;
     text-align: center;
+    margin-top: 30px;
 }
 footer img{
     height: 50px;
@@ -172,7 +173,7 @@ div input[type="range"]::-webkit-slider-thumb {
     -webkit-appearance: none;
     appearance: none;
     width: 20px;
-    height: 20px;
+    height: 10px;
     background: #4CAF50;
     border-radius: 50%;
     cursor: pointer;
@@ -225,11 +226,6 @@ section{
     row-gap: 15px;
     column-gap: 15px;
     margin-left: 40px;
-<<<<<<< HEAD
-    margin-bottom: 15px;
-=======
->>>>>>> 4dea76e59af680dc3d07cbd32bc8021c00c63bed
-    
 }
 
 main{
@@ -281,8 +277,37 @@ section div a{
     border: 1px solid black;
     padding: 3px;
     margin-left: 20px;
-
-    
+}
+.adibidea:hover{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    transition: 0.5s;
+   
+    cursor: pointer;
+}
+.adibidea2:hover{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    transition: 0.5s;
+    cursor: pointer;
+}
+.adibidea3:hover{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    transition: 0.5s;
+    cursor: pointer;
+}
+.adibidea4:hover{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    transition: 0.5s;
+    cursor: pointer;
+}
+.adibidea5:hover{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    transition: 0.5s;
+    cursor: pointer;
+}
+.adibidea6:hover{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    transition: 0.5s;
+    cursor: pointer;
 }
 @media (max-width:768px) {
     

@@ -217,13 +217,9 @@ section div a{
 }
 footer{
     background-color: #575757;
-<<<<<<< HEAD
     clear: both;
     margin: 0.78616352201257861635220125786164% 0.78616352201257861635220125786164%;
-=======
-    
     margin: 10px 10px;
->>>>>>> 4dea76e59af680dc3d07cbd32bc8021c00c63bed
     margin-top: 50px;
     width: auto;
     border: 1px solid black;
@@ -235,6 +231,27 @@ footer img{
     margin-top: 50px;
     margin: none;
     margin-left: 0.78616352201257861635220125786164%;
+}
+.adibidea:hover{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    transition: 0.5s;
+   
+    cursor: pointer;
+}
+.adibidea2:hover{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    transition: 0.5s;
+    cursor: pointer;
+}
+.adibidea3:hover{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    transition: 0.5s;
+    cursor: pointer;
+}
+.adibidea4:hover{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    transition: 0.5s;
+    cursor: pointer;
 }
 
 @media (max-width:768px) {

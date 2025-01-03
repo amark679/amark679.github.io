@@ -4,10 +4,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-html, body{
+html,body {
     height: 100%;
 }
+/* Estilo general del body */
 body {
     display: flex;
     flex-direction: column;
@@ -41,8 +41,9 @@ header {
 }
 .kontaktua{
     padding: 5.8616352201257861635220125786164%;
-    width: 140%;
+    width: 150%;
 }
+
 /* Estilo de las imágenes */
 
 #argazkia2{
@@ -121,101 +122,78 @@ nav a:hover {
     background-color: #575757;
     border-radius: 10px;
 }
-.container{
-    background-image: url(../img/egurra2.jfif);
-    width: 300px;
-    margin-left: 10px;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight:bold;
-    border-radius: 20px;
+.carrusel {
     float: left;
-    margin-top: 10px;
-    height: 140px;
+    position: relative;
+    width: 78.616352201257861635220125786164%;
+    /*max-width: 1020px; /* Ancho máximo del carrusel */
+    overflow: hidden; /* Oculta las imágenes que se salen del contenedor */
+    
+    margin-left: 0.78616352201257861635220125786164%;
+    border: 10px solid black;
+    
 }
 main{
     flex: 1;
     margin: 0px;
+    
 }
-main div input[type="range"] {
-    -webkit-appearance: none;
-    width: 300px;
-    height: 10px;
-    background: #fffefe;
-    border-radius: 5px;
-    outline: none;
-}
-
-div input[type="range"]::-webkit-slider-thumb {
-    -webkit-appearance: none;
-    appearance: none;
-    width: 20px;
-    height: 20px;
-    background: #4CAF50;
-    border-radius: 50%;
-    cursor: pointer;
-}
-
-main div input[type="range"]::-moz-range-thumb {
-    width: 20px;
-    height: 20px;
-    background: #4CAF50;
-    border-radius: 50%;
-    cursor: pointer;
-}
-.karroa{
-    margin-left: 15px;
-    height: 80px;
-
-}
-.price {
-    font-size: 20px;
-    margin: 20px 0;
-}
-
-
-aside div{
-    background-image: url(../img/egurra2.jfif);
-    width: 300px;
-    margin-left: 10px;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight:bold;
-    border-radius: 20px;
-    margin-top: 10px;
-    margin-left: 15px;
-}
-aside div img{
-    cursor: pointer;
-    border: 1px solid black;
-    margin-left: 45px;
-    margin-top: 10px;
-    transition: 0.5s;
-    width: 200px;
-    height: 150px;
-
-}
-aside div img :hover{
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
-    transition: 0.5s;
-}
-aside div p{
-    margin-left: 10px;
-    float: inherit;
-}
-aside{
+/*section{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-}
-aside div a{
-    
-    background-color: mediumaquamarine;
-    text-transform: uppercase;
-    color: #000;
-    border-radius: 20px;
-    border: 1px solid black;
-    padding: 3px;
-    margin-left: 10px;
-    
+    row-gap: 15px;
+    column-gap: 15px;
+    margin-left: 40px;
+}*/
 
+
+.imagenes {
+    display: flex;
+    animation: cambiar 9s infinite; /* Duración total de la animación */
+    height: 450px;
+    
+    
+    
+}
+
+.imagen {
+    min-width: 100%; /* Cada imagen ocupa el 100% del ancho del contenedor */
+    transition: opacity 1s ease-in-out;
+    
+}
+.fila{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    
+    
+    margin-bottom: 50px;
+}
+
+@keyframes cambiar {
+    0% { transform: translateX(0); }
+    33.33% { transform: translateX(0); }
+    33.34% { transform: translateX(-100%); }
+    66.66% { transform: translateX(-100%); }
+    66.67% { transform: translateX(-200%); }
+    100% { transform: translateX(-200%); }
+}
+aside{
+    
+   
+    padding: 0.39308176100628930817610062893082%;
+    width: 18.081761006289308176100628930818%;
+    position: relative;
+    float : right
+    
+    }
+aside p{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:bold;
+    color: white;
+    
+}
+aside img{
+    margin-top: 17px;
 }
 footer{
     background-color: #575757;
@@ -227,50 +205,66 @@ footer{
     position: relative;
     text-align: center;
 }
-footer img {
+footer img{
     height: 50px;
     margin-top: 50px;
     margin: none;
     margin-left: 0.78616352201257861635220125786164%;
 }
-.adibidea:hover{
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
-    transition: 0.5s;
-   
-    cursor: pointer;
+.aurkeztu{
+    background-color: azure;
+    color: black;
+    text-align: center;
+    margin: 0.5208333333333333% 0.5208333333333333% 0.5208333333333333%;
+    border: 4px solid black;
+    grid-row: 1/3;
+    grid-column: 9/ span 4;
+
 }
-.adibidea2:hover{
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
-    transition: 0.5s;
-    cursor: pointer;
+.aurkeztu p{
+    border-bottom: 1px solid black;
 }
-.adibidea3:hover{
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
-    transition: 0.5s;
-    cursor: pointer;
+
+.aurkeztu1{
+    background-color: azure;
+    color: black;
+    border: 4px solid black;
+    margin: 0.5208333333333333% 0.5208333333333333% 0.5208333333333333%;
+    grid-row: 1/2;
+    grid-column: 1/span 2;
 }
-.adibidea4:hover{
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
-    transition: 0.5s;
-    cursor: pointer;
+
+.aurkeztu1>*{
+    
+    font-weight: 500;
+    margin: 10px 10px;
+    border: 3px solid black;
+    background-color: aqua;
+    
 }
-.adibidea5:hover{
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
-    transition: 0.5s;
-    cursor: pointer;
+
+.aurkeztu2{
+    background-color: azure;
+    color: black;
+    border: 4px solid black;
+    margin: 0.5208333333333333% 0.5208333333333333% 0.5208333333333333%;
+    grid-row: 1/2;
+    grid-column: 3/span 6;
 }
-.adibidea6:hover{
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
-    transition: 0.5s;
-    cursor: pointer;
+.aurkeztu2>*{
+    margin: 10px 10px;
 }
-@media (max-width: 768px) {
-    aside{
+
+
+@media (max-width: 768px){
+    main section{
+    
         
         grid-template-columns: repeat(2,1fr);
-        margin: 5px 5px;
+       
+        
     }
-    header form {
+    header form{
         display: none;
     }
     .kontaktua{
@@ -281,17 +275,18 @@ footer img {
     }
     .karroa{
         width: 80px;
-        height: 80px;
+        height: 75px;
         margin-left: 0px;
     }
     
-    aside div {
-        width: 220px;
-        
+    section aside {
+        float: none;
     }
-    aside div img{
-        width: 180px;
-        text-align: center;
-        margin-left: 20px;
+    .carrusel{
+        width: 100%;
     }
-}
+    .aurkeztu{
+        height: 400px;
+        font-size: medium ;
+    }
+}    

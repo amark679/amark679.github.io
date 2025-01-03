@@ -236,6 +236,32 @@ footer img{
     margin-top: 50px;
     margin-left: 10px;
 }
+.adibidea:hover{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    transition: 0.5s;
+   
+    cursor: pointer;
+}
+.adibidea2:hover{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    transition: 0.5s;
+    cursor: pointer;
+}
+.adibidea3:hover{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    transition: 0.5s;
+    cursor: pointer;
+}
+.adibidea4:hover{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    transition: 0.5s;
+    cursor: pointer;
+}
+.adibidea5:hover{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    transition: 0.5s;
+    cursor: pointer;
+}
 @media (max-width:768px) {
     aside{
         
