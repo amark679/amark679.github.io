@@ -212,8 +212,8 @@ section{
     grid-row: 2/3;
     grid-column: 3/ span 4;
 }
-section div a{
-    
+
+.sask1{
     background-color: mediumaquamarine;
     text-transform: uppercase;
     color: #000;
@@ -221,7 +221,51 @@ section div a{
     border: 1px solid black;
     padding: 3px;
     margin-left: 20px;
-
+}
+.sask2{
+    background-color: mediumaquamarine;
+    text-transform: uppercase;
+    color: #000;
+    border-radius: 20px;
+    border: 1px solid black;
+    padding: 3px;
+    margin-left: 20px;
+}
+.sask3{
+    background-color: mediumaquamarine;
+    text-transform: uppercase;
+    color: #000;
+    border-radius: 20px;
+    border: 1px solid black;
+    padding: 3px;
+    margin-left: 20px;
+}
+.sask4{
+    background-color: mediumaquamarine;
+    text-transform: uppercase;
+    color: #000;
+    border-radius: 20px;
+    border: 1px solid black;
+    padding: 3px;
+    margin-left: 20px;
+}
+.sask5{
+    background-color: mediumaquamarine;
+    text-transform: uppercase;
+    color: #000;
+    border-radius: 20px;
+    border: 1px solid black;
+    padding: 3px;
+    margin-left: 20px;
+}
+.sask6{
+    background-color: mediumaquamarine;
+    text-transform: uppercase;
+    color: #000;
+    border-radius: 20px;
+    border: 1px solid black;
+    padding: 3px;
+    margin-left: 20px;
 }
 .tambor1 a {
     margin-top: 100px;
@@ -241,6 +285,9 @@ footer img{
     height: 50px;
     margin-top: 50px;
     margin-left: 10px;
+}
+.kajaa{
+    background-color: none;
 }
 @media (max-width:768px) {
     aside{

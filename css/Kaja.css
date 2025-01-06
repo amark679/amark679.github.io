@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-html, body {
+html,body {
     height: 100%;
 }
 /* Estilo general del body */
@@ -121,82 +121,41 @@ nav a:hover {
     background-color: #575757;
     border-radius: 10px;
 }
-
-main section{
-    background-color: white;
-    margin-left: 25%;
-    margin-right: 25%;
-    display: grid;
-    grid-template-columns: repeat(5,1fr);
-    row-gap: 15px;
-    column-gap: 15px;
-    border-radius: 5px;
-    border: 2px solid black;
-    
-}
-main section>*{
-    margin-left: 10px;
-    margin-top: 10px;
-}
-main {
+main{
     flex: 1;
-    margin: 0px;
 }
-.atzea {
+main img{
+    width: 45%;
+    margin-left: 20px; 
+    height: 500px;
+    margin-top: 10px;
+    border: 10px groove black;
+    float: left;
+    
+}
+aside{
     background-color: white;
-    margin-right: 25%;
-    margin-left: 25%;
+    margin-left: 50%;
+    margin-right: 20px;
+    margin-top: 10px;
     border: 2px solid black;
-    
 }
-.atzea >*{
+aside>*{
     margin-left: 15px;
-    margin-top: 10px;
-    
 }
-.atzea h2{
-    border-bottom: 1px solid black;
-}
-.kopurua {
-    width: 30px;
+aside input{
+    background-color: orange;
+    width: 150px;
     height: 30px;
-    text-align: center;
+    margin-top: 20px;
 }
-.Ezabatu{ 
-    padding: 1.62893081761006289308176100628931% 2.62893081761006289308176100628931%;
-        border: 1px solid #ccc;
-        background-color: blue;
-        color: white;
-        border-radius: 4px;
-        cursor: pointer;
-        width: 60px;
-        height: 40px;
-}
-.Ezabatu:hover {
-    background-color: #0056b3;
-}
-.nagusi{
-    font-style: italic;
-    font-variant: small-caps;
-}
-.nagusi1{
-    color: white;
-}
-.Eskaria{
-    /*padding: 1.62893081761006289308176100628931% 2.62893081761006289308176100628931%;*/
-    border: 1px solid #ccc;
-    background-color: blue;
-    color: white;
-    border-radius: 4px;
+aside input:hover{
+    background-color: burlywood;
     cursor: pointer;
-    margin-left: 320px;
-    width: 120px;
-    height: 30px;
-    text-align: center;
-    margin-top: 10px;
 }
-.Eskaria:hover {
-    background-color: #0056b3;
+.deskripzioa{
+    border-bottom: 3px solid orange;
+    margin-top: 15px;
 }
 footer{
     background-color: #575757;
@@ -208,15 +167,15 @@ footer{
     position: relative;
     text-align: center;
 }
-footer img {
+footer img{
     height: 50px;
     margin-top: 50px;
     margin: none;
     margin-left: 0.78616352201257861635220125786164%;
 }
-@media (max-width: 768px) {
+@media (max-width: 768px){
     
-    header form {
+    header form{
         display: none;
     }
     .kontaktua{
@@ -227,11 +186,24 @@ footer img {
     }
     .karroa{
         width: 80px;
-        height: 80px;
+        height: 75px;
         margin-left: 0px;
     }
-    main section {
-        width: 455px;
+    aside{
         margin-left: 20px;
+        clear: left;
+       width: 400px;
+       margin-top: 350px;
     }
-}
+    aside>*{
+        font-size: small;
+    }
+    input{
+        width: 50px;
+    }
+    main img{
+        height: 300px;
+        width: 400px;
+    }
+   
+}    

@@ -124,16 +124,86 @@ nav a:hover {
 main form {
     background-color: white;
     border-radius: 4px;
+    width: 30%;
 }
 label{
     padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
 }
+
 textarea{
     margin-top: 5px;
-    height: 100px;
+    height: 40px;
     position: relative;
 
 }
-.mezua{
+
+form{
+    margin: 20px 20px;
+    width: fit-content;
+   /* margin-left: 10px;*/
+    float: left;
+    clear: both;
+}
+iframe{
+    margin-left: 25px;
     
 }
+.ubik{
+    margin-left: 25px;
+    position: relative;
+    background-color: aliceblue;
+    padding: 5px;
+}
+
+aside{
+    float: inline-start;
+    margin: 20px 20px;
+    
+}
+h2{
+    padding: 5px; 
+}
+footer{
+    background-color: #575757;
+    clear: both;
+    margin: 0.78616352201257861635220125786164% 0.78616352201257861635220125786164%;
+    margin-top: 50px;
+    width: auto;
+    border: 1px solid black;
+    position: relative;
+    text-align: center;
+}
+footer img{
+    height: 50px;
+    margin-top: 50px;
+    margin: none;
+    margin-left: 0.78616352201257861635220125786164%;
+}
+main{
+    flex: 1;
+}
+@media (max-width: 768px){
+    
+    header form{
+        display: none;
+    }
+    .kontaktua{
+        width: 80px;
+        
+        height: 90px;
+        margin-left: 120px;
+    }
+    .karroa{
+        width: 80px;
+        height: 75px;
+        margin-left: 0px;
+    }
+    form{
+        margin-left: 45px;
+        width:500px;
+        
+        
+    }
+}    

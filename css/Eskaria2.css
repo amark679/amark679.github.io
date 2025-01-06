@@ -162,10 +162,10 @@ main {
 .Ezabatu:hover {
     background-color: #0056b3;
 }
-.nagusi{
+/*.nagusi{
     font-style: italic;
     font-variant: small-caps;
-}
+}*/
 .nagusi1{
     color: white;
 }
@@ -178,13 +178,12 @@ main {
     cursor: pointer;
    /*margin-left: 320px;*/
     width: 120px;
-    height: 30px;
-    text-align: center;
+    height: 25px;
+    
     margin-top: 10px;
+    margin-left: 390px;
 }
-.Eskaria:hover {
-    background-color: #0056b3;
-}
+
 footer{
     background-color: #575757;
     clear: both;
@@ -265,11 +264,11 @@ footer img{
 }
 .atzea {
     background-color: white;
-    width: 445px;
+    margin-right: 25%;
     margin-left: 25%;
     border: 2px solid black;
     margin-top: 15px;
-    border-radius: 10px ;
+    
 }
 .atzea >*{
     margin-left: 15px;
@@ -277,6 +276,22 @@ footer img{
     
 }
 .atzea h2{
+    border-bottom: 1px solid black;
+}
+.atzea1 {
+    background-color: white;
+    width: 445px;
+    margin-left: 25%;
+    border: 2px solid black;
+    margin-top: 10px;
+    
+}
+.atzea1 >*{
+    margin-left: 15px;
+    margin-top: 10px;
+    
+}
+.atzea1 h2{
     border-bottom: 1px solid black;
 }
 /*input[type="submit"] {
@@ -318,12 +333,15 @@ a input>*{
     border-bottom: 5px solid white;
 }
 .ordainketa{
-    margin-left: 15px;
+    margin-left: 125px;
     width: 150px;
-    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: medium;
+    
     
 }
-.ordainketa input{
+/*.ordainketa input{
     padding: 5px;
     text-align: center;
     border: 1px solid #ccc;
@@ -331,13 +349,16 @@ a input>*{
     color: white;
     border-radius: 4px;
     cursor: pointer;
-    margin-left: 15px;
+    /*margin-left: 15px;
     margin-top: 10px;
     font-size: 18px;
+}*/
+.ordainketa:hover{
+    background-color: azure;
+    color: black;
+    transition: 0.5s;
 }
-.eskaria{
-    margin-left: 25%;
-}
+
 
 @media (max-width: 768px) {
     
